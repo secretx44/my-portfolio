@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
-import { useRouter } from "next/router";
-import Layout from "./Layout";
 
 export default function Navbar() {
   const { theme, setTheme } = useTheme();
@@ -13,24 +11,34 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="max-w-9xl p-12 block md:flex justify-around">
-      <a href="/">
-        <h1 className="font-Lato"> JianGodito </h1>
-        <p className="font-mono"> Frontend Developer </p>{" "}
-      </a>
-      <div className="font-Fira flex md:flex space-x-4 items-center">
-        <div>
-          <Link href="/about">About</Link> <a></a>
+    <div className="container mx-auto  max-w-9xl p-12 block md:flex justify-around">
+      <Link href="/">
+        <a className="font-Lato hover:opacity-50">
+          <h1> JianGodito </h1>
+          <p> Frontend Developer </p>
+        </a>
+      </Link>
+      <div className="font-Fira flex space-x-4 items-center">
+        <div className="hover:opacity-50">
+          <Link href="/about">
+            <a>About</a>
+          </Link>
         </div>
-        <div>
-          <Link href="/project"> Projects </Link> <a> </a>{" "}
-        </div>{" "}
-        <div>
-          <Link href="/experience"> Experience </Link> <a> </a>{" "}
-        </div>{" "}
-        <div>
-          <Link href="/contact"> Contact </Link> <a> </a>{" "}
-        </div>{" "}
+        <div className="hover:opacity-50">
+          <Link href="/project">
+            <a>Projects</a>
+          </Link>
+        </div>
+        <div className="hover:opacity-50">
+          <Link href="/experience">
+            <a>Experience</a>
+          </Link>
+        </div>
+        <div className="hover:opacity-50">
+          <Link href="/contact">
+            <a>Contact</a>
+          </Link>
+        </div>
         <button
           label="Toggle Dark Mode"
           type="button"
@@ -63,7 +71,7 @@ export default function Navbar() {
             </svg>
           )}{" "}
         </button>{" "}
-      </div>{" "}
+      </div>
     </div>
   );
 }

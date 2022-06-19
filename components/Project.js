@@ -3,9 +3,9 @@ import Layout from "./Layout";
 function Project() {
   return (
     <div>
-      <div className="dark:bg-darker bg-lighter mt-24">
+      <div className="mt-24 dark:bg-darker bg-lighter">
         <div className="">
-          <h1 className="py-8 font-mono text-6xl text-center  md:text-9xl">
+          <h1 className="py-8 font-mono text-6xl text-center md:text-9xl">
             Projects
           </h1>
         </div>
@@ -35,7 +35,7 @@ function Project() {
               <div className="object-cover h-72">
                 <img
                   className="object-cover w-full transition ease-out transform hover:scale-125 duration-2000 rounded-xl"
-                  src="/TodoLists.jpg"
+                  src="/todoLists.jpg"
                 />
               </div>
               <h1 className="absolute px-2 py-1 text-xl font-bold rounded-md top-1 left-5 text-cyan bg-darker">
@@ -46,12 +46,12 @@ function Project() {
 
           <a
             className="block w-full drop-shadow-2xl"
-            href="https://countddown.vercel.app/"
+            href="https://count-down-nine.vercel.app/"
           >
             <div className="relative overflow-hidden">
               <div className="object-cover h-72">
                 <img
-                  className="object-cover w-full  transition ease-out transform hover:scale-125 duration-2000 rounded-xl"
+                  className="object-cover w-full transition ease-out transform hover:scale-125 duration-2000 rounded-xl"
                   src="/countdown.jpg"
                 />
               </div>
@@ -80,17 +80,34 @@ function Project() {
 
           <a
             className="block w-full drop-shadow-2xl"
-            href="https://tictactoe-livid.vercel.app/"
+            href="https://tictactoe-murex-theta.vercel.app/"
           >
             <div className="relative overflow-hidden">
               <div className="object-cover h-72">
                 <img
-                  className="object-cover w-full  transition ease-out transform hover:scale-125 duration-2000 rounded-xl"
-                  src="/tictactor.jpg"
+                  className="object-cover w-full h-full transition ease-out transform hover:scale-125 duration-2000 rounded-xl"
+                  src="/tictactoe.jpg"
                 />
               </div>
               <h1 className="absolute px-2 py-1 text-xl font-bold rounded-md top-1 left-5 text-cyan bg-darker">
                 Tictactoe
+              </h1>
+            </div>
+          </a>
+
+          <a
+            className="block w-full drop-shadow-2xl"
+            href="https://githubusers-beta.vercel.app/"
+          >
+            <div className="relative overflow-hidden">
+              <div className="object-cover h-72">
+                <img
+                  className="object-cover w-full h-full transition ease-out transform hover:scale-125 duration-2000 rounded-xl"
+                  src="/githubuser.jpg"
+                />
+              </div>
+              <h1 className="absolute px-2 py-1 text-xl font-bold rounded-md top-1 left-5 text-cyan bg-darker">
+                GithubUsers
               </h1>
             </div>
           </a>
