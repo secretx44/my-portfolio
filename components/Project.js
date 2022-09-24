@@ -69,7 +69,7 @@ function Project() {
               <div className="object-cover h-72">
                 <img
                   className="object-cover w-full transition ease-out transform hover:scale-125 duration-2000 rounded-xl"
-                  src="/weatherApp.jpg"
+                  src="/weatherApp.png"
                 />
               </div>
               <h1 className="absolute px-2 py-1 text-xl font-bold rounded-md top-1 left-5 text-cyan bg-darker">
@@ -103,7 +103,7 @@ function Project() {
               <div className="object-cover h-72">
                 <img
                   className="object-cover w-full h-full transition ease-out transform hover:scale-125 duration-2000 rounded-xl"
-                  src="/githubuser.jpg"
+                  src="/githubUsers.png"
                 />
               </div>
               <h1 className="absolute px-2 py-1 text-xl font-bold rounded-md top-1 left-5 text-cyan bg-darker">

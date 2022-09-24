@@ -25,18 +25,7 @@ const Hero = () => {
                   based in Laspinas, Philippines.
                 </p>
                 <div className="flex">
-                  <button className="block px-3 py-1 mr-2 text-center rounded-full dark:bg-lighter bg-darker hover:opacity-75 hover:dark:opacity-25 dark:text-darker text-lighter ">
-                    <a
-                      href="/files/JIAN.GResume.pdf"
-                      alt="alt text"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex my-auto "
-                    >
-                      Hire me
-                      <IoMdDownload className="flex my-auto" />
-                    </a>
-                  </button>
+                 
                   <button className="px-3 py-1 text-center bg-gray-500 rounded-full hover:opacity-50 text-lighter dark:text-darker ">
                     <a href="/contact" className="flex my-auto ">
                       Contact Me

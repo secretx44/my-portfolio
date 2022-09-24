@@ -31,13 +31,12 @@ const About = () => {
                 Email
               </a>{" "}
             </p>{" "}
-            <div className=" block text-xl space-y-6">
+            <div className=" block text-xl space-y-3">
               <h1 className="my-12 text-2xl text-center md:text-justify ">
-                Social Links{" "}
-                <FaAngleDown className="animate-bounce mx-4 md:mx-1 my-1" />
+                Social Links
               </h1>{" "}
               <p className="font-mono">
-                <a href="https://www.facebook.com/Gyaaannn " className="flex">
+                <a href="https://www.facebook.com/Gyaaannn " className="flex hover:text-blue-500">
                   <FaFacebookSquare className="mx-4 md:mx-1 my-1 " />
                   Facebook
                 </a>
@@ -45,20 +44,20 @@ const About = () => {
               <p className="font-mono">
                 <a
                   href="https://www.linkedin.com/in/jian-godito-472345211/ "
-                  className="flex"
+                  className="flex hover:text-blue-500"
                 >
                   <FaLinkedin className="mx-4 md:mx-1 my-1" /> LinkedIn{" "}
                 </a>{" "}
               </p>{" "}
               <p className="font-mono">
-                <a href="https://github.com/Jianuu " className="flex">
+                <a href="https://github.com/Jianuu " className="flex hover:text-blue-500">
                   <FaGithub className="mx-4 md:mx-1 my-1" /> Github{" "}
                 </a>{" "}
               </p>{" "}
             </div>{" "}
           </div>{" "}
           <div className=" md:w-1/2 md:px-5 md:py-4 md:text-start">
-            <p className="mx-4 my-4 text-justify  md:text-justify md:mx-auto">
+            <p className="mx-4 my-4 text-justify  md:text-justify md:mx-auto text-xl">
               {" "}
               IT student from STI College Las Piñas.I took IT course because I
               want to make my own websites and I get excited and happy when I
