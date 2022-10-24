@@ -97,7 +97,7 @@ function Project() {
 
           <a
             className="block w-full drop-shadow-2xl"
-            href="https://githubusers-beta.vercel.app/"
+            href="https://githubusers-mauve.vercel.app/"
           >
             <div className="relative overflow-hidden">
               <div className="object-cover h-72">
