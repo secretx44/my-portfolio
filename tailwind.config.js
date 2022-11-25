@@ -23,10 +23,11 @@ module.exports = {
       fontFamily: {
         fira: ["Fira sans", "sans-serif"],
         mono: ["monospace", "san-serif"],
-        Ubunt: ["Ubuntu", "sans-serif"],
+        ubunt: ["Ubuntu", "sans-serif"],
         poppins: ["Poppins", "san-serif"],
-        Lato: ["Lato", "sans-serif"],
+        lato: ["Lato", "sans-serif"],
         cutiv: ["cutive mono", "monospace"],
+        quick: ['Quicksand']
       },
       rotate: {
         360: "360deg",

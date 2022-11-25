@@ -1,5 +1,4 @@
 import React from "react";
-import Layout from "./Layout";
 function Project() {
   return (
     <div>
@@ -63,7 +62,7 @@ function Project() {
 
           <a
             className="block w-full drop-shadow-2xl"
-            href="https://weather-app-hazel-three.vercel.app/"
+            href="https://weather-app-six-blush.vercel.app/"
           >
             <div className="relative overflow-hidden">
               <div className="object-cover h-72">
@@ -108,6 +107,22 @@ function Project() {
               </div>
               <h1 className="absolute px-2 py-1 text-xl font-bold rounded-md top-1 left-5 text-cyan bg-darker">
                 GithubUsers
+              </h1>
+            </div>
+          </a>
+              <a
+            className="block w-full drop-shadow-2xl"
+            href="https://food-recipes-rosy.vercel.app/"
+          >
+            <div className="relative overflow-hidden">
+              <div className="object-cover h-72">
+                <img
+                  className="object-cover w-full h-full transition ease-out transform hover:scale-125 duration-2000 rounded-xl"
+                  src="/foodRecipe.png"
+                />
+              </div>
+              <h1 className="absolute px-2 py-1 text-xl font-bold rounded-md top-1 left-5 text-cyan bg-darker">
+                FoodRecipes
               </h1>
             </div>
           </a>
