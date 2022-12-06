@@ -14,7 +14,7 @@ const Hero = () => {
             <div className="w-full md:w-1/2 md:px-3">
               <div className="w-full text-center md:text-left pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-10 md:pb-0">
                 <h1 className="-mb-6 text-4xl text-center md:text-left md:text-5xl text-gray-900 sm:text-4xl  dark:text-gray-200">
-                  Hi, I'm{" "}
+                  Hi, I'm
                   <span className="w-10 h-20 pt-2 font-mono font-bold animate-wiggle whitespace-nowrap text-brand-accent">
                     Jian Godito
                   </span>
