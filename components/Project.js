@@ -1,14 +1,16 @@
 import React from "react";
+import Tilt from "react-parallax-tilt";
 function Project() {
   return (
     <div>
-      <div className="mt-24 dark:bg-darker bg-lighter">
+      <div className=" dark:bg-darker bg-lighter">
         <div className="">
           <h1 className="py-8 font-mono text-6xl text-center md:text-9xl">
             Projects
           </h1>
         </div>
         <div className="grid max-w-6xl grid-cols-1 gap-12 px-8 py-8 mx-auto md:grid md:grid-cols-2 md:pb-40">
+          <Tilt>
           <a
             className="block w-full drop-shadow-2xl"
             href="https://jgportfolio.vercel.app/"
@@ -24,8 +26,9 @@ function Project() {
                 2nd portfolio
               </h1>
             </div>
-          </a>
-
+            </a>
+            </Tilt>
+        <Tilt>
           <a
             className="relative overflow-hidden"
             href="https://todo-lists-omega.vercel.app/"
@@ -42,7 +45,8 @@ function Project() {
               </h1>
             </div>
           </a>
-
+          </Tilt>
+          <Tilt>
           <a
             className="block w-full drop-shadow-2xl"
             href="https://count-down-nine.vercel.app/"
@@ -59,7 +63,9 @@ function Project() {
               </h1>
             </div>
           </a>
+          </Tilt>
 
+          <Tilt>
           <a
             className="block w-full drop-shadow-2xl"
             href="https://weather-app-six-blush.vercel.app/"
@@ -76,7 +82,9 @@ function Project() {
               </h1>
             </div>
           </a>
+          </Tilt>
 
+          <Tilt>
           <a
             className="block w-full drop-shadow-2xl"
             href="https://tictactoe-murex-theta.vercel.app/"
@@ -93,7 +101,9 @@ function Project() {
               </h1>
             </div>
           </a>
+          </Tilt>
 
+          <Tilt>
           <a
             className="block w-full drop-shadow-2xl"
             href="https://githubusers-mauve.vercel.app/"
@@ -109,7 +119,10 @@ function Project() {
                 GithubUsers
               </h1>
             </div>
-          </a>
+          </a>  
+          </Tilt>
+
+          <Tilt>
               <a
             className="block w-full drop-shadow-2xl"
             href="https://food-recipes-rosy.vercel.app/"
@@ -125,7 +138,8 @@ function Project() {
                 FoodRecipes
               </h1>
             </div>
-          </a>
+            </a>
+            </Tilt>
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@ import React from "react";
 const Experience = () => {
   return (
     <>
-      <section className="h-full mt-24 dark:bg-darker bg-lighter md:h-full">
+      <section className="h-full dark:bg-darker bg-lighter md:h-full">
         <div>
           <h1 className="relative py-8 font-mono text-6xl text-center md:text-9xl">
             Experience

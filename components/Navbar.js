@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
-import Link from "next/link";
 import { useTheme } from "next-themes";
+import Link from "next/link";
+import React, { useEffect, useState } from "react";
 
 export default function Navbar() {
   const { theme, setTheme } = useTheme();
@@ -51,7 +51,7 @@ export default function Navbar() {
               viewBox="0 0 24 24"
               fill="currentColor"
               stroke="currentColor"
-              className="animate-bounce w-5 h-5 text-darker dark:text-yellow"
+              className="w-5 h-5 text-darker dark:text-yellow transition ease-in-out delay-150"
             >
               {theme === "dark" ? (
                 <path
