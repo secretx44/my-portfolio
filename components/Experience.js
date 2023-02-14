@@ -1,5 +1,5 @@
+import { motion } from "framer-motion";
 import React from "react";
-
 const Experience = () => {
   return (
     <>
@@ -9,29 +9,83 @@ const Experience = () => {
             Experience
           </h1>
         </div>
-
-        <div className="grid max-w-xl grid-cols-1 pt-40 mx-auto ">
+        <motion.div className="grid max-w-xl grid-cols-1 pt-40 mx-auto"
+         initial={{ x: 300, opacity: 0 }}
+                    animate={{ x: 0, opacity: 1 }}
+                    exit={{  opacity: 0, 
+                    transform: 'scale(0.5)', 
+                    transition: { ease: 'easeIn', duration: 10 }  }}
+                    transition={{
+                    type: "spring", stiffness: 200,
+                    ease: "easeInOut",
+                    duration: 1.1
+          }}
+        >
+        <div className="grid max-w-xl grid-cols-1 mx-auto ">
+          <div className="relative z-10 p-12 border rounded-lg -top-2 bg-darker dark:bg-lighter text-light dark:text-darker ">
+            <div className="">
+              <h2 className="absolute px-1 py-1 mx-auto bg-gray-500 rounded-lg -bottom-3 text-light">
+                December - February
+              </h2>
+            </div>
+              <h1 className="font-mono text-2xl text-start ">FrontEnd Developer</h1>
+              <p className="py-4 text-4xl">VavaSoftware Corp.</p>
+            <ol className="list-disc">
+            <li>Built REST API that served data, PHP (Laravel) for the
+                backend, and VueJS for the front end. And Jenkins for
+                the testing, Build, and Deployment of the projects. And
+                JIRA for the scrums or tasks management, where tasks
+                log or mapped to customize the workflows. And
+                BITBUCKET is used to collaborate on code from concept
+                to Cloud, build quality code through automated testing,
+                and deploy code with confidence.</li>
+              <li>Maintain the quality of the projects, making sure that
+                  the project is easy to use and easy to understand.
+              </li>
+              <li>Update the User Interface, Fixing the bugs/Errors of the
+                  projects.
+              </li>
+              <li>Weekly Meetings about the progress of the projects.</li>
+            </ol>
+          </div>
+          <div className="relative z-10 w-2 h-2 -mt-2 rounded-full bg-dark dark:bg-lighter animate-ping">
+            <div className="relative z-10 w-2 h-2 rounded-full bg-dark dark:bg-lighter animate-ping"></div>
+          </div>
+          <div className="w-1 h-24 -mt-3 bg-darker dark:bg-lighter"></div>
+        </div>
           <div className="relative z-10 p-12 border rounded-lg bg-darker dark:bg-lighter text-light dark:text-darker ">
             <div>
               <h2 className="absolute px-1 py-1 mx-auto bg-gray-500 rounded-lg -bottom-3 text-light">
-                June - Current
+                May - December
               </h2>
             </div>
-            <h1 className="font-mono text-2xl text-start ">Frontend Developer</h1>
-            <p className="py-4 underline">Innovations Group</p>
-            <p>As a Frontend Developer of that company, located at pasay city, 
-            I am responsible for maintaining and Fixing errors of the websites or company projects. 
-            there are almost 100 websites to develop and need to maintain. 
-            And we use the Agile method in our company first we need the requirements, Design, Implementation, and Verification. Maintenance. 
-            And System Testing and Deployment, Once you verify that your app is working, you’re ready to deploy it.
-            That's why i need to communicate to the tester to do the testing phase before we deploy the projects.  And we used HTML, CSS3/Sass, 
-            JavaScript, ReactJS, And TypeScript to develop the projects.</p>
+            <h1 className="font-mono text-2xl text-start ">FrontEnd Developer</h1>
+            <p className="py-4 text-4xl">Innovations Group</p>
+           <ol className="list-disc">
+            <li>Built REST API that served data, Java for the backend,
+                and ReactJS for the front end. And Jenkins for the
+                testing, Build, and Deployment of the projects. And JIRA
+                for the scrum or tasks management, where tasks log or
+                mapped to customize the workflows</li>
+              <li>Maintain the quality of the projects, making sure that the
+                  project is easy to use and easy to understand
+              </li>
+              <li>Update the User Interface, Fixing the bugs/Errors of the
+                  projects.
+              </li>
+              <li>Implementation, and Methodrification. Maintenance.
+                  System Testing and Deployment: Once you verify that
+                  the project is working.</li>
+              <li>Reviewed code and conducted testing for additional
+                  features.</li>
+              <li>Weekly Meetings about the progress of the projects.</li>
+            </ol>
           </div>
           <div className="relative z-10 w-2 h-2 -mt-2 rounded-full bg-dark dark:bg-lighter animate-ping">
             <div className="relative z-10 w-2 h-2 rounded-full bg-dark dark:bg-lighter animate-ping"></div>
           </div>
           <div className="w-1 h-32 -mt-2 bg-darker dark:bg-lighter"></div>
-        </div>
+        </motion.div>
 
         {/* second card */}
 

@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import React from "react";
 import {
   FaFacebookSquare, FaGithub,
@@ -6,16 +7,29 @@ import {
 const About = () => {
   return (
     <div className="bg-lighter dark:bg-darker h-full md:h-full">
-      <div className="md:max-w-9xl items-center max-w-6xl px-8 mx-auto xl:px-5  sm:mb-auto">
+      <div className="md:max-w-9xl items-center max-w-6xl px-8 mx-auto xl:px-5 sm:mb-auto">
         <div className="px-4 ">
           <h2 className="py-8 font-mono text-6xl text-center md:text-9xl">
             About
           </h2>
+        </div>
+        <motion.div
+                  initial={{ x: 300, opacity: 0 }}
+                    animate={{ x: 0, opacity: 1 }}
+                    exit={{  opacity: 0, 
+                    transform: 'scale(0.5)', 
+                    transition: { ease: 'easeIn', duration: 10 }  }}
+                    transition={{
+                    type: "spring", stiffness: 200,
+                    ease: "easeInOut",
+                    duration: 1.1
+          }}
+        >
           <h3 className="my-4 text-2xl md:text-start md:text-2xl ">
             Hello! I'm a Frontend Developer, Specializing in developing with
             HTML, CSS, JavaScript, ReactJs and TypeScript.
           </h3>
-        </div>
+        
         <div className="block mx-auto md:flex md:justify-center ">
           <div className="mx-auto md:w-1/2 md:px-4 md:py-4 md:text-start md:text-left ">
             <h1 className="my-2 text-2xl text-center md:text-justify ">
@@ -223,8 +237,9 @@ const About = () => {
                  </svg>            
               </div>
             </div>
-          </div>
-        </div>
+            </div>
+            </div>
+        </motion.div>
       </div>
     </div>
   );
