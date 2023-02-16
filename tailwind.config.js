@@ -21,13 +21,7 @@ module.exports = {
         lighter: "#E2E8F0",
       },
       fontFamily: {
-        fira: ["Fira sans", "sans-serif"],
-        mono: ["monospace", "san-serif"],
-        ubunt: ["Ubuntu", "sans-serif"],
-        poppins: ["Poppins", "san-serif"],
-        lato: ["Lato", "sans-serif"],
-        cutiv: ["cutive mono", "monospace"],
-        quick: ['Quicksand']
+        quick: ['Quicksand', 'sans-serif']
       },
       rotate: {
         360: "360deg",

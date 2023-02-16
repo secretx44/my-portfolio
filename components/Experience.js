@@ -10,17 +10,10 @@ const Experience = () => {
           </h1>
         </div>
         <motion.div className="grid max-w-xl grid-cols-1 pt-40 mx-auto"
-         initial={{ x: 300, opacity: 0 }}
-                    animate={{ x: 0, opacity: 1 }}
-                    exit={{  opacity: 0, 
-                    transform: 'scale(0.5)', 
-                    transition: { ease: 'easeIn', duration: 10 }  }}
-                    transition={{
-                    type: "spring", stiffness: 200,
-                    ease: "easeInOut",
-                    duration: 1.1
-          }}
-        >
+        initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 1, ease: "easeInOut" }} >
         <div className="grid max-w-xl grid-cols-1 mx-auto ">
           <div className="relative z-10 p-12 border rounded-lg -top-2 bg-darker dark:bg-lighter text-light dark:text-darker ">
             <div className="">

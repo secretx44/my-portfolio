@@ -13,17 +13,10 @@ const Hero = ( {children}) => {
       <Navbar />
       <div className="h-full bg-lighter dark:bg-darker md:h-full">
         <motion.div className="container items-center max-w-6xl mx-auto xl:px-5 mb-52 sm:mb-auto"
-                    initial={{ x: 300, opacity: 0 }}
-                    animate={{ x: 0, opacity: 1 }}
-                    exit={{  opacity: 0, 
-                    transform: 'scale(0.5)', 
-                    transition: { ease: 'easeIn', duration: 10 }  }}
-                    transition={{
-                    type: "spring", stiffness: 200,
-                    ease: "easeInOut",
-                    duration: 1.1
-          }}
-        >
+      initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 1, ease: "easeInOut" }} >
           <div className="flex flex-wrap items-center sm:-mx-3">
             <div className="w-full md:w-1/2 md:px-3">
               <div className="w-full text-center md:text-left pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-10 md:pb-0">
@@ -38,21 +31,21 @@ const Hero = ( {children}) => {
                   based in Laspinas, Philippines.
                 </p>
                 <div className="flex justify-center md:justify-start">
-                  <button className="px-3 w-44 py-1 mr-2 text-center rounded-full dark:bg-lighter bg-darker hover:opacity-75 hover:dark:opacity-25 dark:text-darker text-lighter ">
+                  <button className="px-3 w-38 py-2 mr-2 text-center rounded-full dark:bg-lighter bg-darker hover:opacity-75 hover:dark:opacity-25 dark:text-darker text-lighter ">
                     <a
-                        href="/files/myResumeJG.pdf"
+                        href="/files/JMGResumeV2.pdf"
                         alt="alt text"
                         target="_blank"
                       rel="noopener noreferrer"
-                      className="flex my-auto font-poppins"
-                    >Download CV <GrDownload className="flex m-auto" />
+                      className="flex my-auto font-quick text-sm font-bold"
+                    >Download CV <GrDownload className="flex m-auto ml-1" />
                     </a>
                   </button>
-                 
+                  
                   <button className="px-3 py-1 rounded-full text-center dark:bg-lighter bg-darker hover:opacity-75 hover:dark:opacity-25 dark:text-darker text-lighter  ">
-                    <a href="/contact" className="flex my-auto font-mono">
+                    <a href="/contact" className="flex my-auto font-quick text-sm font-bold">
                       Contact Me
-                      <IoIosChatbubbles className="flex my-auto ml-2" />
+                      <IoIosChatbubbles className="flex my-auto ml-1" />
                     </a>
                   </button>
                 </div>

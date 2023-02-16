@@ -6,17 +6,10 @@ const Contact = () => {
       <div className="bg-lighter dark:bg-darker h-screen text-center">
         <h1 className="text-6xl md:text-9xl text-center font-mono">Contact</h1>
         <motion.div
-          initial={{ x: 300, opacity: 0 }}
-                    animate={{ x: 0, opacity: 1 }}
-                    exit={{  opacity: 0, 
-                    transform: 'scale(0.5)', 
-                    transition: { ease: 'easeIn', duration: 10 }  }}
-                    transition={{
-                    type: "spring", stiffness: 200,
-                    ease: "easeInOut",
-                    duration: 1.1
-          }}
-        >
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 1, ease: "easeInOut" }} >
         <p className="mt-36 md:mt-36 mx-auto  text-4xl py-4 ">Get in touch</p>
         <p className="">
           {" "}

@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import React from "react";
-import Tilt from "react-parallax-tilt";
 function Project() {
   return (
     <div>
@@ -11,26 +10,47 @@ function Project() {
           </h1>
         </div>
         <motion.div className="grid max-w-6xl grid-cols-1 gap-12 px-8 py-8 mx-auto md:grid md:grid-cols-2 md:pb-40"
-            initial={{ x: 300, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            exit={{  opacity: 0, 
-            transform: 'scale(0.5)', 
-            transition: { ease: 'easeIn', duration: 10 }  }}
-            transition={{
-            type: "spring", stiffness: 200,
-            ease: "easeInOut",
-            duration: 1.1
-    }}
-        >
+            // whileHover={{ scale: 1.1, boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.2)" }}
+            // whileTap={{ scale: 0.9 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 1, ease: "easeInOut" }} 
+    >
              
           {/* GithubUsers */}
-
-          <Tilt>
-          <a
-            className="block w-full drop-shadow-2xl"
-            href="https://githubusers-mauve.vercel.app/"
+          <motion.a
+              className="block w-full drop-shadow-2xl"
+              href="https://githubusers-mauve.vercel.app/"
+              whileHover={{
+              scale: 1.05,
+              transition: { duration: .2, ease: "easeInOut"  },
+              boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.2)",
+              }}
+              whileTap={{ scale: 0.95 }}
+              style={{
+              borderRadius: 10,
+              background: "#fff",
+              position: "relative",
+              overflow: "hidden",
+      }}
           >
-            <div className="relative overflow-hidden">
+            <motion.div className="relative overflow-hidden"
+            style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          background: "linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0))",
+          zIndex: 1,
+          opacity: 0,
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          transition: { duration: 0.2 },
+        }}
+        animate={{ opacity: 1 }}>
               <div className="object-cover h-72">
                 <img
                   className="object-cover w-full h-full transition ease-out transform hover:scale-125 duration-2000 rounded-xl"
@@ -40,16 +60,26 @@ function Project() {
               <h1 className="absolute px-2 py-1 text-xl font-bold rounded-md top-1 left-5 text-cyan bg-darker">
                 GithubUsers
               </h1>
-            </div>
-          </a>  
-          </Tilt>
+            </motion.div>
+          </motion.a>  
 
           {/* Shopiyey */}
 
-        <Tilt>
-          <a
+          <motion.a
             className="relative overflow-hidden"
             href="https://shopiyey-jngdt.vercel.app/"
+                  whileHover={{
+              scale: 1.05,
+              transition: { duration: .2, ease: "easeInOut"  },
+              boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.2)",
+              }}
+              whileTap={{ scale: 0.95 }}
+              style={{
+              borderRadius: 10,
+              background: "#fff",
+              position: "relative",
+              overflow: "hidden",
+      }}
           >
             <div className="relative overflow-hidden">
               <div className="object-cover h-72">
@@ -62,15 +92,26 @@ function Project() {
                 SHOPIYEY
               </h1>
             </div>
-          </a>
-          </Tilt>
+          </motion.a>
+
 
           {/* Countdown */}
 
-          <Tilt>
-          <a
+          <motion.a
             className="block w-full drop-shadow-2xl"
             href="https://count-down-nine.vercel.app/"
+                  whileHover={{
+              scale: 1.05,
+              transition: { duration: .2, ease: "easeInOut"  },
+              boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.2)",
+              }}
+              whileTap={{ scale: 0.95 }}
+              style={{
+              borderRadius: 10,
+              background: "#fff",
+              position: "relative",
+              overflow: "hidden",
+      }}
           >
             <div className="relative overflow-hidden">
               <div className="object-cover h-72">
@@ -83,15 +124,27 @@ function Project() {
                 Countdown
               </h1>
             </div>
-          </a>
-          </Tilt>
+          </motion.a>
+
 
           {/* WeatherApp */}
 
-          <Tilt>
-          <a
+        
+          <motion.a
             className="block w-full drop-shadow-2xl"
             href="https://weather-app-six-blush.vercel.app/"
+                  whileHover={{
+              scale: 1.05,
+              transition: { duration: .2, ease: "easeInOut"  },
+              boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.2)",
+              }}
+              whileTap={{ scale: 0.95 }}
+              style={{
+              borderRadius: 10,
+              // background: "#fff",
+              position: "relative",
+              overflow: "hidden",
+      }}
           >
             <div className="relative overflow-hidden">
               <div className="object-cover h-72">
@@ -104,15 +157,27 @@ function Project() {
                 WeatherApp
               </h1>
             </div>
-          </a>
-          </Tilt>
+          </motion.a>
+          
 
           {/* Tictactoe */}
           
-          <Tilt>
-          <a
+
+          <motion.a
             className="block w-full drop-shadow-2xl"
             href="https://tictactoe-murex-theta.vercel.app/"
+                  whileHover={{
+              scale: 1.05,
+              transition: { duration: .2, ease: "easeInOut"  },
+              boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.2)",
+              }}
+              whileTap={{ scale: 0.95 }}
+              style={{
+              borderRadius: 10,
+              background: "#fff",
+              position: "relative",
+              overflow: "hidden",
+      }}
           >
             <div className="relative overflow-hidden">
               <div className="object-cover h-72">
@@ -125,16 +190,28 @@ function Project() {
                 Tictactoe
               </h1>
             </div>
-          </a>
-          </Tilt>
+          </motion.a>
+    
 
 
           {/* Food Recipes */}
 
-          <Tilt>
-              <a
+  
+              <motion.a
             className="block w-full drop-shadow-2xl"
             href="https://food-recipes-rosy.vercel.app/"
+                  whileHover={{
+              scale: 1.05,
+              transition: { duration: .2, ease: "easeInOut"  },
+              boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.2)",
+              }}
+              whileTap={{ scale: 0.95 }}
+              style={{
+              borderRadius: 10,
+              background: "#fff",
+              position: "relative",
+              overflow: "hidden",
+      }}
           >
             <div className="relative overflow-hidden">
               <div className="object-cover h-72">
@@ -147,8 +224,8 @@ function Project() {
                 FoodRecipes
               </h1>
             </div>
-            </a>
-            </Tilt>
+            </motion.a>
+        
         </motion.div>
       </div>
     </div>
