@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
-import { GrDownload } from 'react-icons/gr';
 import { IoIosChatbubbles } from "react-icons/io";
+import { MdDownload } from 'react-icons/md';
 import About from "./About";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
@@ -13,10 +13,10 @@ const Hero = ( {children}) => {
       <Navbar />
       <div className="h-full bg-lighter dark:bg-darker md:h-full">
         <motion.div className="container items-center max-w-6xl mx-auto xl:px-5 mb-52 sm:mb-auto"
-      initial={{ opacity: 0 }}
+                initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
-                transition={{ duration: 1, ease: "easeInOut" }} >
+                transition={{ duration: 2, ease: "easeInOut" }} >
           <div className="flex flex-wrap items-center sm:-mx-3">
             <div className="w-full md:w-1/2 md:px-3">
               <div className="w-full text-center md:text-left pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-10 md:pb-0">
@@ -38,7 +38,7 @@ const Hero = ( {children}) => {
                         target="_blank"
                       rel="noopener noreferrer"
                       className="flex my-auto font-quick text-sm font-bold"
-                    >Download CV <GrDownload className="flex m-auto ml-1" />
+                    >Download CV <MdDownload className="flex m-auto ml-1" />
                     </a>
                   </button>
                   

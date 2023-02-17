@@ -14,20 +14,13 @@ const About = () => {
           </h2>
         </div>
         <motion.div
-                  initial={{ x: 300, opacity: 0 }}
-                    animate={{ x: 0, opacity: 1 }}
-                    exit={{  opacity: 0, 
-                    transform: 'scale(0.5)', 
-                    transition: { ease: 'easeIn', duration: 10 }  }}
-                    transition={{
-                    type: "spring", stiffness: 200,
-                    ease: "easeInOut",
-                    duration: 1.1
-          }}
-        >
-          <h3 className="my-4 text-2xl md:text-start md:text-2xl">
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 3, ease: "easeInOut" }} >
+          <h3 className="my-4 ml-4 text-2xl md:text-start w-full md:text-2xl">
             Hello! I'm a Frontend Developer, Specializing in developing with
-            HTML, CSS, JavaScript, ReactJs and TypeScript.
+            HTML, CSS, JavaScript (ReactJs | VueJs).
           </h3>
         
         <div className="block mx-auto md:flex md:justify-center ">
@@ -36,11 +29,10 @@ const About = () => {
               Contact
             </h1>{" "}
             <p className="mx-4 text-xl text-start md:mx-auto ">
-              {" "}
               Feel free to ask me any questions you may have. I'm always open to
-              new ideas and opportunities, Send me an{" "}
-              <a href="mailto:Jgodito27@gmail.com" className="underline">
-                Email
+                job and opportunities, Send me an <br/>
+                  <a href="mailto:Jgodito27@gmail.com" className="underline">
+                  Email
               </a>{" "}
             </p>{" "}
             <div className=" block text-xl space-y-3">
@@ -70,9 +62,8 @@ const About = () => {
           </div>{" "}
           <div className=" md:w-1/2 md:px-5 md:py-4 md:text-start">
             <p className="mx-4 my-4 text-justify  md:text-justify md:mx-auto text-xl">
-              I'am a Front-end developer who interested to developed softwares. And i have been part of a development team and 
-              we have scrum meeting to report our tasks and the progress of the projects. And i'm continue learning a different 
-              frameworks like VueJs, NuxtJs, and NextJs Programming languages like PHP and PYTHON.
+                I'm a front-end developer who is interested in developing software. And I have been part of a development team for over a year.
+                and I want to continue this role to pursue becoming a full-stack developer.
             </p>
             <h1 className="px-2 py-2 mx-4 mt-12 text-xl font-extrabold text-center rounded-md font-cutiv dark:bg-lighter dark:text-darker text-lighter bg-darker w-43 ">
               Tech Stack

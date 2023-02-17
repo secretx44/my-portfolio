@@ -9,7 +9,7 @@ const Contact = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
-                transition={{ duration: 1, ease: "easeInOut" }} >
+                transition={{ duration: 3, ease: "easeInOut" }} >
         <p className="mt-36 md:mt-36 mx-auto  text-4xl py-4 ">Get in touch</p>
         <p className="">
           {" "}

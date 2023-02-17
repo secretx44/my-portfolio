@@ -13,8 +13,8 @@ export default function Navbar() {
   return (
     <div className="container mx-auto  max-w-9xl p-12 block md:flex justify-around">
       <Link href="/">
-        <a className="font-Lato hover:opacity-50">
-          <h1> JianGodito </h1>
+        <a className="font-Lato hover:opacity-50 active:text-red-500">
+          <h1> JnGdt </h1>
           <p> Frontend Developer </p>
         </a>
       </Link>
