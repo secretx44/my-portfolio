@@ -29,9 +29,8 @@ const About = () => {
               Contact
             </h1>{" "}
             <p className="mx-4 text-xl text-start md:mx-auto ">
-              Feel free to ask me any questions you may have. I'm always open to
-                job and opportunities, Send me an <br/>
-                  <a href="mailto:Jgodito27@gmail.com" className="underline">
+              Just message me if you have a question. I'm always open to
+                new opportunities, Send me an <a href="mailto:Jgodito27@gmail.com" className="underline">
                   Email
               </a>{" "}
             </p>{" "}
@@ -62,8 +61,8 @@ const About = () => {
           </div>{" "}
           <div className=" md:w-1/2 md:px-5 md:py-4 md:text-start">
             <p className="mx-4 my-4 text-justify  md:text-justify md:mx-auto text-xl">
-                I'm a front-end developer who is interested in developing software. And I have been part of a development team for over a year.
-                and I want to continue this role to pursue becoming a full-stack developer.
+                As a front-end developer, I'm passionate about creating software. Also, I have worked on a development team for more than a year.
+                and I intend to stay in this position so I can work toward being a full-stack developer.
             </p>
             <h1 className="px-2 py-2 mx-4 mt-12 text-xl font-extrabold text-center rounded-md font-cutiv dark:bg-lighter dark:text-darker text-lighter bg-darker w-43 ">
               Tech Stack
