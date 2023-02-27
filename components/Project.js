@@ -151,10 +151,10 @@ function Project() {
               </h1>{" "}
             </div>{" "}
           </motion.a>{" "}
-          {/* Tictactoe */}{" "}
+          {/* randomJokes */}
           <motion.a
             className="block w-full drop-shadow-2xl"
-            href="https://tictactoe-murex-theta.vercel.app/"
+            href="https://rndmjokes.vercel.app/"
             whileHover={{
               scale: 1.05,
               transition: { duration: 0.2, ease: "easeInOut" },
@@ -171,11 +171,11 @@ function Project() {
               <div className="object-cover h-72">
                 <img
                   className="object-cover w-full h-full transition ease-out transform hover:scale-125 duration-2000 rounded-xl"
-                  src="/tictactoe.jpg"
+                  src="/rndmjks.jpg"
                 />
               </div>{" "}
               <h1 className="absolute px-2 py-1 text-xl font-bold rounded-md top-1 left-5 text-cyan bg-darker">
-                Tictactoe{" "}
+                Random Jokes
               </h1>{" "}
             </div>{" "}
           </motion.a>{" "}
