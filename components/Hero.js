@@ -27,7 +27,7 @@ const Hero = ({ children }) => {
                     Jian Godito
                   </span>
                 </motion.h1>
-                <p className="mx-auto text-sm px-12 text-gray-700 sm:text-base dark:text-gray-200 sm:max-w-md lg:text-xl md:max-w-3xl">
+                <p className="mx-auto text-sm px-12 md:px-0 text-gray-700 sm:text-base dark:text-gray-200 sm:max-w-md lg:text-xl md:max-w-3xl">
                   A 23 year old{" "}
                   <span className="font-bold ">Front-end Developer </span>
                   based in Laspinas, Philippines.
