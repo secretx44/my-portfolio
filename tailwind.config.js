@@ -18,10 +18,10 @@ module.exports = {
         yellow: "#EAB308",
         brown: "#78350F",
         darker: "#000",
-        lighter: "#E2E8F0",
+        lighter: "#C8C2BC",
       },
       fontFamily: {
-        quick: ['Quicksand', 'sans-serif']
+        quick: ["Quicksand", "sans-serif"],
       },
       rotate: {
         360: "360deg",
@@ -33,4 +33,4 @@ module.exports = {
     display: ["responsive", "group-hover", "group-focus"],
   },
   plugins: [],
-};
+}

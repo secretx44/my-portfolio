@@ -38,7 +38,7 @@ const About = () => {
                 <p className="font-mono">
                   <a
                     href="https://www.facebook.com/Gyaaannn"
-                    className="flex hover:text-blue-500 "
+                    className="flex hover:text-blue-500 md:w-28 w-36"
                   >
                     <FaFacebookSquare className="mx-4 md:mx-1 my-1" /> Facebook
                   </a>
@@ -46,7 +46,7 @@ const About = () => {
                 <p className="font-mono">
                   <a
                     href="https://www.linkedin.com/in/jian-godito-472345211/"
-                    className="flex hover:text-blue-500"
+                    className="flex hover:text-blue-500 md:w-28 w-36"
                   >
                     <FaLinkedin className="mx-4 md:mx-1 my-1" /> Linkedin
                   </a>
@@ -54,7 +54,7 @@ const About = () => {
                 <p className="font-mono">
                   <a
                     href="https://github.com/secretx44"
-                    className="flex hover:text-blue-500 w-28"
+                    className="flex hover:text-blue-500 md:w-28 w-36"
                   >
                     <FaGithub className="mx-4 md:mx-1 my-1" /> Github
                   </a>
