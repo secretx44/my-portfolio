@@ -20,6 +20,38 @@ const Experience = () => {
             <div className="relative z-10 p-12 border rounded-lg -top-2 bg-darker dark:bg-lighter text-light dark:text-darker ">
               <div className="">
                 <h2 className="absolute px-1 py-1 mx-auto bg-gray-500 rounded-lg -bottom-3 text-light">
+                  March 2023 – Current
+                </h2>
+              </div>
+              <h1 className="font-mono text-2xl text-start ">
+                Front-End Developer
+              </h1>
+              <p className="py-4 text-4xl">Ri-rance Realty Corporation</p>
+              <ol className="list-disc">
+                <li>
+                  Develop new features of the projects for h5 and Web
+                  application.
+                </li>
+                <li>
+                  Optimize and add a new design to the code of the existing
+                  projects.
+                </li>
+                <li>
+                  Collaboration with other teams like the backend, Product
+                  designer, and QA's.
+                </li>
+              </ol>
+            </div>
+            <div className="relative z-10 w-2 h-2 -mt-2 rounded-full bg-dark dark:bg-lighter animate-ping">
+              <div className="relative z-10 w-2 h-2 rounded-full bg-dark dark:bg-lighter animate-ping"></div>
+            </div>
+            <div className="w-1 h-24 -mt-3 bg-darker dark:bg-lighter"></div>
+          </div>
+
+          <div className="grid max-w-xl grid-cols-1 mx-auto ">
+            <div className="relative z-10 p-12 border rounded-lg -top-2 bg-darker dark:bg-lighter text-light dark:text-darker ">
+              <div className="">
+                <h2 className="absolute px-1 py-1 mx-auto bg-gray-500 rounded-lg -bottom-3 text-light">
                   December - February 2023
                 </h2>
               </div>
@@ -56,7 +88,7 @@ const Experience = () => {
           <div className="relative z-10 p-12 border rounded-lg bg-darker dark:bg-lighter text-light dark:text-darker ">
             <div>
               <h2 className="absolute px-1 py-1 mx-auto bg-gray-500 rounded-lg -bottom-3 text-light">
-                May - December 2022
+                April - December 2022
               </h2>
             </div>
             <h1 className="font-mono text-2xl text-start ">

@@ -35,7 +35,7 @@ const Hero = ({ children }) => {
                 <div className="flex justify-center md:justify-start">
                   <button className="px-3 w-38 py-2 mr-2 text-center rounded-full dark:bg-lighter bg-darker hover:opacity-75 hover:dark:opacity-25 dark:text-darker text-lighter ">
                     <a
-                      href="/files/JMGResumeV2.pdf"
+                      href="/files/JGCV2.pdf"
                       alt="alt text"
                       target="_blank"
                       rel="noopener noreferrer"
