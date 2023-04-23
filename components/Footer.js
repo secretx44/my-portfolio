@@ -1,5 +1,5 @@
-import React from "react";
-import { FaFacebookSquare, FaGithub, FaLinkedin } from "react-icons/fa";
+import React from "react"
+import { FaFacebookSquare, FaGithub, FaLinkedin } from "react-icons/fa"
 const Footer = () => {
   return (
     <footer>
@@ -13,10 +13,10 @@ const Footer = () => {
             2023 Design and Developed by JnGdt
           </p>{" "}
           <div className="flex py-2 md:py-4 justify-center gap-6 md:flex md:gap-4 ">
-            <a href="https://www.facebook.com/Gyaaannn ">
+            <a href="https://www.facebook.com/Gyaaannn">
               <FaFacebookSquare />
             </a>{" "}
-            <a href="https://www.linkedin.com/in/jian-godito-472345211/ ">
+            <a href="https://www.linkedin.com/in/jn-gdt/">
               <FaLinkedin />
             </a>{" "}
             <a href="https://github.com/secretx44 ">
@@ -26,7 +26,7 @@ const Footer = () => {
         </div>{" "}
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

@@ -45,7 +45,7 @@ const About = () => {
                 </p>
                 <p className="font-mono">
                   <a
-                    href="https://www.linkedin.com/in/jian-godito-472345211/"
+                    href="https://www.linkedin.com/in/jn-gdt/"
                     className="flex hover:text-blue-500 md:w-28 w-36"
                   >
                     <FaLinkedin className="mx-4 md:mx-1 my-1" /> Linkedin
