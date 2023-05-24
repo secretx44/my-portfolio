@@ -5,8 +5,8 @@ const About = () => {
   return (
     <div className="bg-lighter dark:bg-darker h-full md:h-full">
       <div className="md:max-w-9xl items-center max-w-6xl px-8 mx-auto xl:px-5 sm:mb-auto">
-        <div className="px-4 ">
-          <h2 className=" font-mono text-4xl text-center md:text-9xl">About</h2>
+        <div className="md:mx-4">
+          <h2 className="my-2 text-4xl text-start md:text-justify">About</h2>
         </div>
         <motion.div
           initial={{ opacity: 0 }}
@@ -14,17 +14,17 @@ const About = () => {
           exit={{ opacity: 0 }}
           transition={{ duration: 3, ease: "easeInOut" }}
         >
-          <h3 className="my-4 ml-4 md:text-start w-full md:text-2xl text-sm text-justify">
+          <h3 className="my-4 ml-4 md:text-start w-full md:text-2xl text-md text-start">
             Hello! I'm a Frontend Developer, Specializing in developing with
             HTML, CSS, JavaScript (ReactJs | VueJs).
           </h3>
 
           <div className="block mx-auto md:flex md:justify-center ">
             <div className="mx-auto md:w-1/2 md:px-4 md:py-4 md:text-start md:text-left ">
-              <h1 className="my-2 text-4xl text-center md:text-justify ">
+              <h1 className="my-2 text-4xl text-start md:text-justify ">
                 Contact
               </h1>
-              <p className="mx-4 text-sm md:text-xl text-justify md:mx-auto ">
+              <p className="mx-4 my-4 md:text-xl md:mx-auto text-md text-start">
                 Just message me if you have a question. I'm always open to new
                 opportunities, Send me an{" "}
                 <a href="mailto:Jgodito27@gmail.com" className="underline">
@@ -32,10 +32,10 @@ const About = () => {
                 </a>
               </p>
               <div className=" block text-xl space-y-3">
-                <h1 className="my-12 text-4xl text-center md:text-justify ">
+                <h1 className="my-2 text-4xl text-start md:text-justify">
                   Social Links
                 </h1>
-                <p className="font-mono">
+                <p className="font-quick">
                   <a
                     href="https://www.facebook.com/Gyaaannn"
                     className="flex hover:text-blue-500 md:w-28 w-36"
@@ -43,7 +43,7 @@ const About = () => {
                     <FaFacebookSquare className="mx-4 md:mx-1 my-1" /> Facebook
                   </a>
                 </p>
-                <p className="font-mono">
+                <p className="font-quick">
                   <a
                     href="https://www.linkedin.com/in/jn-gdt/"
                     className="flex hover:text-blue-500 md:w-28 w-36"
@@ -51,7 +51,7 @@ const About = () => {
                     <FaLinkedin className="mx-4 md:mx-1 my-1" /> Linkedin
                   </a>
                 </p>
-                <p className="font-mono">
+                <p className="font-quick">
                   <a
                     href="https://github.com/secretx44"
                     className="flex hover:text-blue-500 md:w-28 w-36"
@@ -62,7 +62,7 @@ const About = () => {
               </div>
             </div>
             <div className=" md:w-1/2 md:px-5 md:py-4 md:text-start">
-              <p className="mx-4 my-4 text-start md:text-justify md:mx-auto text-xl">
+              <p className="mx-4 my-4 text-justify md:text-justify md:mx-auto text-xl">
                 As a front-end developer, I'm passionate about creating
                 software. Also, I have worked on a development team for more
                 than a year. and I intend to stay in this position so I can work
@@ -72,7 +72,7 @@ const About = () => {
                 Tech Stack
               </h1>
               <motion.div
-                className="flex flex-row flex-wrap justify-center gap-6  mt-8 "
+                className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-4 place-items-center  m-auto gap-2 my-8"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1, ease: "easeInOut" }}
@@ -453,6 +453,95 @@ const About = () => {
                   </svg>
                   <p className="font-quick text-center text-lighter dark:text-darker">
                     WordPress
+                  </p>
+                </div>
+
+                {/* Firebase icon */}
+
+                <div className="bg-darker h-20 p-2 rounded-md dark:bg-lighter">
+                  <svg
+                    height="50px"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M16 16C16 13.7909 17.7909 12 20 12C22.2091 12 24 13.7909 24 16C24 18.2091 22.2091 20 20 20C17.7909 20 16 18.2091 16 16Z"
+                      fill="#1ABCFE"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M8 24C8 21.7909 9.79086 20 12 20H16V24C16 26.2091 14.2091 28 12 28C9.79086 28 8 26.2091 8 24Z"
+                      fill="#0ACF83"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M16 4V12H20C22.2091 12 24 10.2091 24 8C24 5.79086 22.2091 4 20 4H16Z"
+                      fill="#FF7262"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M8 8C8 10.2091 9.79086 12 12 12H16V4H12C9.79086 4 8 5.79086 8 8Z"
+                      fill="#F24E1E"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M8 16C8 18.2091 9.79086 20 12 20H16V12H12C9.79086 12 8 13.7909 8 16Z"
+                      fill="#A259FF"
+                    />
+                  </svg>
+                  <p className="font-quick text-center text-lighter dark:text-darker">
+                    Figma
+                  </p>
+                </div>
+                <div className="bg-darker h-20 p-2 rounded-md dark:bg-lighter">
+                  <svg
+                    className="mx-auto"
+                    height="50px"
+                    viewBox="0 0 32 32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.8,24.6l.17-.237L13.99,9.149l.017-.161L10.472,2.348a.656.656,0,0,0-1.227.207Z"
+                      fill="#ffc24a"
+                    />
+                    <path
+                      d="M5.9,24.42l.128-.25L13.965,9.114,10.439,2.448a.6.6,0,0,0-1.133.206Z"
+                      fill="#ffa712"
+                    />
+                    <path
+                      d="M16.584,14.01l2.632-2.7L16.583,6.289a.678.678,0,0,0-1.195,0L13.981,8.971V9.2Z"
+                      fill="#f4bd62"
+                    />
+                    <path
+                      d="M16.537,13.9l2.559-2.62L16.537,6.4a.589.589,0,0,0-1.074-.047L14.049,9.082l-.042.139Z"
+                      fill="#ffa50e"
+                    />
+                    <polygon
+                      points="5.802 24.601 5.879 24.523 6.158 24.41 16.418 14.188 16.548 13.834 13.989 8.956 5.802 24.601"
+                      fill="#f6820c"
+                    />
+                    <path
+                      d="M16.912,29.756,26.2,24.577,23.546,8.246A.635.635,0,0,0,22.471,7.9L5.8,24.6l9.233,5.155a1.927,1.927,0,0,0,1.878,0"
+                      fill="#fde068"
+                    />
+                    <path
+                      d="M26.115,24.534,23.483,8.326a.557.557,0,0,0-.967-.353L5.9,24.569l9.131,5.1a1.912,1.912,0,0,0,1.863,0Z"
+                      fill="#fcca3f"
+                    />
+                    <path
+                      d="M16.912,29.6a1.927,1.927,0,0,1-1.878,0L5.876,24.522,5.8,24.6l9.233,5.155a1.927,1.927,0,0,0,1.878,0L26.2,24.577l-.023-.14Z"
+                      fill="#eeab37"
+                    />
+                  </svg>
+                  <p className="font-quick text-center text-lighter dark:text-darker">
+                    Firebase
                   </p>
                 </div>
               </motion.div>

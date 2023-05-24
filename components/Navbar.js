@@ -1,24 +1,24 @@
-import { useTheme } from "next-themes";
-import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import { useTheme } from "next-themes"
+import Link from "next/link"
+import React, { useEffect, useState } from "react"
 
 export default function Navbar() {
-  const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
+  const { theme, setTheme } = useTheme()
+  const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
-    setMounted(true);
-  }, []);
+    setMounted(true)
+  }, [])
 
   return (
     <div className="container mx-auto  max-w-9xl p-12 block md:flex justify-around">
       <Link href="/">
-        <a className="font-Lato hover:opacity-50 active:text-red-500">
+        <a className="font-quick hover:opacity-50 active:text-red-500">
           <h1> JnGdt </h1>
           <p> Frontend Developer </p>
         </a>
       </Link>
-      <div className="font-Fira flex space-x-4 items-center">
+      <div className="font-quick flex space-x-4 items-center">
         <div className="hover:opacity-50">
           <Link href="/about">
             <a>About</a>
@@ -73,5 +73,5 @@ export default function Navbar() {
         </button>{" "}
       </div>
     </div>
-  );
+  )
 }

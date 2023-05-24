@@ -5,7 +5,7 @@ const Footer = () => {
     <footer>
       <div className="bg-lighter dark:bg-darker ">
         <div className="text-2xl mx-auto border-t-2 border-darker dark:border-lighter md:flex md:justify-around md:text-right md:max-w-6xl justify-center items-center">
-          <h1 className="py-2 text-md md:text-2xl font-mono text-center md:mr-36 ">
+          <h1 className="py-2 text-md md:text-2xl font-quick text-center md:mr-36 ">
             {" "}
             JnGdt
           </h1>{" "}

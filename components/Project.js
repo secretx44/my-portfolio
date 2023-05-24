@@ -6,7 +6,7 @@ function Project() {
     <div>
       <div className=" dark:bg-darker bg-lighter">
         <div className="">
-          <h1 className="py-8 font-mono text-6xl text-center md:text-9xl">
+          <h1 className="py-8 font-quick text-6xl text-center md:text-9xl">
             Projects{" "}
           </h1>{" "}
         </div>{" "}

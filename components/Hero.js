@@ -23,7 +23,7 @@ const Hero = ({ children }) => {
               <div className="w-full text-center md:text-left pb-2 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-10 md:pb-0">
                 <motion.h1 className="-mb-6 text-4xl text-center md:text-left md:text-5xl text-gray-900 sm:text-4xl  dark:text-gray-200">
                   Hi, I'm{" "}
-                  <span className="w-10 h-20 pt-2 font-mono font-bold animate-wiggle whitespace-nowrap text-brand-accent">
+                  <span className="w-10 h-20 pt-2 font-quick font-bold animate-wiggle whitespace-nowrap text-brand-accent">
                     Jian Godito
                   </span>
                 </motion.h1>
@@ -33,19 +33,19 @@ const Hero = ({ children }) => {
                   based in Laspinas, Philippines.
                 </p>
                 <div className="flex justify-center md:justify-start">
-                  <button className="px-3 w-38 py-2 mr-2 text-center rounded-full dark:bg-lighter bg-darker hover:opacity-75 hover:dark:opacity-25 dark:text-darker text-lighter ">
+                  <button className="px-3 w-38 py-2 mr-2 text-center rounded-lg dark:bg-lighter bg-darker hover:opacity-75 hover:dark:opacity-25 dark:text-darker text-lighter ">
                     <a
-                      href="/files/JGCV2.pdf"
+                      href="/files/JGCV27.pdf"
                       alt="alt text"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex my-auto font-quick text-sm font-bold"
                     >
-                      Download CV <MdDownload className="flex m-auto ml-1" />
+                      My resume <MdDownload className="flex m-auto ml-1" />
                     </a>
                   </button>
 
-                  <button className="px-3 py-1 rounded-full text-center dark:bg-lighter bg-darker hover:opacity-75 hover:dark:opacity-25 dark:text-darker text-lighter  ">
+                  <button className="px-3 py-1 rounded-lg text-center dark:bg-lighter bg-darker hover:bg-white hover:dark:bg-darker hover:border-2 hover:border-dark hover:text-dark dark:text-darker hover:dark:border-dark hover:dark:border-2 text-light hover:dark:text-white">
                     <a
                       href="/contact"
                       className="flex my-auto font-quick text-sm font-bold"

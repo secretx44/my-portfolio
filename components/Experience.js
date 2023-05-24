@@ -5,7 +5,7 @@ const Experience = () => {
     <>
       <section className="h-full dark:bg-darker bg-lighter md:h-full">
         <div>
-          <h1 className="relative py-8 font-mono text-6xl text-center md:text-9xl">
+          <h1 className="relative py-8 font-quick text-6xl text-center md:text-9xl">
             Experience
           </h1>
         </div>
@@ -23,22 +23,30 @@ const Experience = () => {
                   March 2023 – Current
                 </h2>
               </div>
-              <h1 className="font-mono text-2xl text-start ">
-                Front-End Developer
+              <h1 className="font-quick text-2xl text-start ">
+                Front-end Developer
               </h1>
-              <p className="py-4 text-4xl">Ri-rance Realty Corporation</p>
+              <p className="py-4 text-4xl md:whitespace-nowrap">
+                Ri-rance Realty Corporation
+              </p>
               <ol className="list-disc">
                 <li>
-                  Develop new features of the projects for h5 and Web
-                  application.
+                  Optimize and add a new design for our existing projects.
                 </li>
                 <li>
-                  Optimize and add a new design to the code of the existing
-                  projects.
+                  Bug fix and adding a new features, to our existing projects.
+                </li>
+                <li>
+                  Ensuring that the code is readable by other developers,
+                  maintainable, and clean
+                </li>
+                <li>
+                  Develop the some pages or component and fetch the API from the
+                  backend to get the data of the third game party.
                 </li>
                 <li>
                   Collaboration with other teams like the backend, Product
-                  designer, and QA's.
+                  designer, and QA's
                 </li>
               </ol>
             </div>
@@ -55,29 +63,32 @@ const Experience = () => {
                   December - February 2023
                 </h2>
               </div>
-              <h1 className="font-mono text-2xl text-start ">
-                Front-End Developer
+              <h1 className="font-quick text-2xl text-start ">
+                Front-end Developer
               </h1>
               <p className="py-4 text-4xl">VavaSoftware Corp.</p>
               <ol className="list-disc">
                 <li>
-                  Built REST API that served data, PHP (Laravel) for the
-                  backend, and VueJS for the front end. And Jenkins for the
-                  testing, Build, and Deployment of the projects. And JIRA for
-                  the scrums or tasks management, where tasks log or mapped to
-                  customize the workflows. And BITBUCKET is used to collaborate
-                  on code from concept to Cloud, build quality code through
-                  automated testing, and deploy code with confidence.
+                  Maintain an existing website for Web applications Responsively
+                  using vue.js and bootstrap
+                </li>
+                <li>Implementing new features and new themes for the Web</li>
+                <li>
+                  Add new pages on our projects and connect the Third Game party
+                  from backend
                 </li>
                 <li>
-                  Maintain the quality of the projects, making sure that the
-                  project is easy to use and easy to understand.
+                  Ensuring that the code is readable by other developers,
+                  maintainable, and clean.
+                </li>
+                <li>Modify some part of the admin site of our project.</li>
+                <li>
+                  Develop a landing page for our web application using
+                  Wordpress. ( Elementor )
                 </li>
                 <li>
-                  Update the User Interface, Fixing the bugs/Errors of the
-                  projects.
+                  We used a bitbucket and JIRA to track our commits or tasks.
                 </li>
-                <li>Weekly Meetings about the progress of the projects.</li>
               </ol>
             </div>
             <div className="relative z-10 w-2 h-2 -mt-2 rounded-full bg-dark dark:bg-lighter animate-ping">
@@ -91,8 +102,8 @@ const Experience = () => {
                 April - December 2022
               </h2>
             </div>
-            <h1 className="font-mono text-2xl text-start ">
-              Front-End Developer
+            <h1 className="font-quick text-2xl text-start ">
+              Front-end Developer
             </h1>
             <p className="py-4 text-4xl">Innovations Group</p>
             <ol className="list-disc">
@@ -135,7 +146,7 @@ const Experience = () => {
                   January - April 2022
                 </h2>
               </div>
-              <h1 className="font-mono text-2xl text-start ">Internship</h1>
+              <h1 className="font-quick text-2xl text-start ">Internship</h1>
               <p className="py-4 underline">HUAWEI Technologies Co.</p>
               <p>
                 I learned about the AWS or Amazon Web Services. And how it
@@ -158,7 +169,7 @@ const Experience = () => {
                   July 2022
                 </h2>
               </div>
-              <h1 className="font-mono text-2xl text-start ">Graduated</h1>
+              <h1 className="font-quick text-2xl text-start ">Graduated</h1>
               <p className="py-4 underline">STI Laspinas</p>
               <p>
                 Bachelor of Science in Information Technology. Major in Web and
