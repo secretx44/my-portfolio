@@ -54,7 +54,7 @@ function Project() {
               }}
               animate={{ opacity: 1 }}
             >
-              <div className="object-cover h-72">
+              <div className="object-cover w-full h-72">
                 <img
                   className="object-cover w-full h-full transition ease-out transform hover:scale-125 duration-2000 rounded-xl"
                   src="/githubUsers.png"
@@ -113,7 +113,7 @@ function Project() {
             <div className="relative overflow-hidden">
               <div className="object-cover h-72">
                 <img
-                  className="object-cover w-full transition ease-out transform hover:scale-125 duration-2000 rounded-xl"
+                  className="object-cover w-full h-full transition ease-out transform hover:scale-125 duration-2000 rounded-xl"
                   src="/imovie.png"
                 />
               </div>{" "}
